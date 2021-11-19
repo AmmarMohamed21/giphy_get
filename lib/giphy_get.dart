@@ -35,6 +35,8 @@ class GiphyGet {
     Color? tabColor,
   }) =>
       showModalBottomSheet<GiphyGif>(
+          constraints:
+                BoxConstraints(maxWidth: kIsWeb ? 500.0 : double.infinity),
           clipBehavior: Clip.antiAlias,
           shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.vertical(top: Radius.circular(10.0))),
