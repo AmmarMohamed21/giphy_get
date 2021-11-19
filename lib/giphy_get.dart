@@ -10,6 +10,7 @@ import 'package:giphy_get/src/providers/sheet_provider.dart';
 import 'package:giphy_get/src/views/main_view.dart';
 import 'package:giphy_get/src/providers/tab_provider.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter/foundation.dart';
 
 // Giphy Client Export
 export 'package:giphy_get/src/client/client.dart';
