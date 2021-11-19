@@ -38,7 +38,7 @@ class GiphyGet {
       showModalBottomSheet<GiphyGif>(
           constraints:
                 BoxConstraints(maxWidth: kIsWeb ? 500.0 : double.infinity,
-                              maxHeight: kIsWeb ? 200.0 : double.infinity,),
+                              maxHeight: kIsWeb ? 500.0 : double.infinity,),
           clipBehavior: Clip.antiAlias,
           shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.vertical(top: Radius.circular(10.0))),
